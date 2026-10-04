@@ -1,21 +1,29 @@
 <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Atelier1</a>
+        <a class="navbar-brand" href="#">Atelier 2</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarColor03">
         <ul class="navbar-nav me-auto">
             <li class="nav-item">
-            <a class="nav-link active" href="first.php">Exercice 1
+            <a class="nav-link active" href="ex1.php">Exercice 1
                 <span class="visually-hidden">(current)</span>
             </a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="test1.php">Exercice 2</a>
+            <a class="nav-link" href="ex2.php">Exercice 2</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="tab.php">Exercice 3</a>
+            <a class="nav-link" href="ex3.php">Exercice 3</a>
+            </li>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="ex4.php">Exercice 4</a>
+            </li>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="ex5.php">Exercice 5</a>
             </li>
             <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
