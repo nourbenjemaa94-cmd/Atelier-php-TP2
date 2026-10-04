@@ -7,11 +7,31 @@
     <title>Exercice 5</title>
 </head>
 <body>
+    
     <?php
 
         include "navbar.php";
 
-        echo"hello world 5";
+
+    $chaine = "hello world"; 
+
+    $mots = explode(' ', $chaine);
+
+    $resultat = "";
+    
+    foreach ($mots as $mot) {
+        if ($mot != "") {
+            
+            $premiereLettre = $mot[0];
+            
+            
+            $resultat .= strtoupper($premiereLettre);
+        }
+    }
+
+    echo "En entrée : " . $chaine . "\n"; 
+    echo "Affichage : " . $resultat;     
+
 
     ?>
     
