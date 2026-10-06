@@ -11,7 +11,23 @@
 
         include "navbar.php";
 
-        echo"hello world 4";
+            $chaine="chaine";
+            echo $chaine ;
+
+            ?> <br>
+            <?php
+        
+        
+            echo "Longueur : " . strlen($chaine) . "<br>";
+            echo "Sous-chaîne ";
+        
+            $inverse = "";
+            for ($i = strlen($chaine) - 1; $i >= 0; $i--) {
+                $inverse = $inverse . $chaine[$i];
+            }
+            echo "Chaîne inversée : $inverse";
+        
+
 
     ?>
     
