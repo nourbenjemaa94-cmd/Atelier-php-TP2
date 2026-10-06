@@ -11,7 +11,7 @@
 
         include "navbar.php";
 
-        echo"hello world 2";
+        
 
     ?>
     

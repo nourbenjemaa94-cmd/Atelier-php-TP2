@@ -11,7 +11,9 @@
 
         include "navbar.php";
 
-        echo"hello world 3";
+        $TAB=["Atelier N°1","Bonjour Tout le monde","Vous etes les bienvenus"];
+        $JSON=json_encode($TAB);
+        
 
     ?>
     
